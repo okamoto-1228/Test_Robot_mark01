@@ -4,13 +4,17 @@
   <name>test_robot_mark01_master</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="p41l4w3v@.s.okayama-u.ac.jp">raspi</maintainer>
+  <maintainer email="p41l4w3v@s.okayama-u.ac.jp">raspi</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
 
   <export>
     <build_type>ament_python</build_type>
